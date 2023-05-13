@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="logInStyle.css">
     <title>Mental Health Website</title>
 </head>
 <!--body section-->
@@ -20,7 +20,7 @@
         </div>
         <div class="links">
             <a id="home" href="index.html">Home</a>
-            <a id="logIn" href="logIn.html">Log In</a>
+            <a id="logIn" href="">Log In</a>
             <a id="inbox" href="">Inbox</a>
             <a id="forum" href="">Forum</a>
             <a id="following" href="">Following</a>
@@ -29,13 +29,13 @@
     <div class="header">
         <div class="bottomHeader">
             <div class="left">
-                <p id="headerText">Struggling with your Mental Health?</p>
-                <p id="descriptionText">
-                    <strong>You are NOT alone</strong>. This is a free space for everyone to feel welcomed and be able
-                    to share your experiences and make meaningful connections while dealing with your mental health struggles
-                    Don't suffer alone and be open minded and learn techniques to deal with these difficult emotions.
-                </p>
-                <button id="signUp">Sign Up Now!</button>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button id="logIn">Log In</button>
             </div>
             <div class="right">
                 <img id="headerImage" src="images/headerImage.jpg">

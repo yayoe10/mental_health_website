@@ -97,7 +97,26 @@ a {
   justify-content: center;
   align-items: center;
   width: 40vw;
+  height: 30vw;
   text-align: center;
+  justify-content: space-between;
+}
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+label[for=email], label[for=psw] {
+  font-size: 25px;
+  text-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.5);
+
 }
 
 #headerText {
@@ -124,9 +143,9 @@ a {
   border-color: white;
 }
 
-/* signUp button CSS */
+/* LogIn button CSS */
 
-#signUp {
+.left #logIn {
   background-color: rgb(59, 59, 237, 0.6);
   border-radius: 50px;
   width: 300px;
@@ -141,7 +160,7 @@ a {
   margin-top: 1em;
 }
 
-#signUp:hover {
+.left #logIn:hover {
   box-shadow: 0px 0px 20px  rgba(255, 255, 255, 0.9);
   background-color: rgb(59, 59, 237, 0.9);
   transition: top ease 0.3s;
@@ -150,7 +169,7 @@ a {
   cursor: pointer;
 }
 
-#signUp:active {
+.left #logIn:active {
   transform: translateY(1px);
   background-color: rgb(59, 59, 237, 0.9);
   box-shadow: inset 0px 0px 30px 2px  rgba(0, 0, 0, 0.6);
