@@ -90,6 +90,11 @@ a {
   
 }
 
+.followingContainer{
+  font-size: 18px;
+}
+
+
 .left {
   display: flex;
   flex-direction: column;
@@ -98,6 +103,34 @@ a {
   align-items: center;
   width: 40vw;
   text-align: center;
+}
+
+.followingInfo {  
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotOnline {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(47, 236, 0);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+}
+
+.dotOffline{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(236, 0, 0);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
 }
 
 #headerText {
